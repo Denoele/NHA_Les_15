@@ -22,15 +22,25 @@
             Bij het gebruik van For in combinatie met Input moeten de 
             Label for="woonplaats" en de Input ID "woonplaats" identiek zijn-->
          
-    <div>
-        <form><h1>Contactformulier</h1>
-            <input type="text" placeholder="Uw naam" />
-            <input type="text" placeholder="Uw voornaam" />
+        <!-- -->
+        <!-- <form id="Contactformulier" action="https://formspree.io/f/xleqgwaz" method="post"></form>-->
+        <h1>Contactformulier</h1>
+    <div class="form-container">
+        <form id="Contactformulier" action="https://formspree.io/f/xleqgwaz" method="post">
+            <form method="post" action="bewaarInformatie.php">
+                <input type="text" name="adres" placeholder="Uw achternaam"/>
+                <input type="text" name="adres" placeholder="Straatnaam en huisnummer"/>
+                <input type="email" name="adres" placeholder="Uw e-mailadres"/>
+                <button type="submit" name="Verzendknop">
+                <strong>Verzend</strong></button>
+            <!--<input type="text" placeholder="Uw achternaam" />
+            <input type="text" placeholder="Uw adres" />
             <input type="email" placeholder="Uw e-mailadres" />
-            <textarea placeholder="Uw boodschap"> </textarea>
+            <textarea placeholder="Uw bericht"></textarea>
             <button>Verzend</button>
+            <input type="submit" value="Verzend">-->
+            
         </form>
     </div>
-            
 </body>
 </html>
