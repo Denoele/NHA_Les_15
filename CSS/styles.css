@@ -32,14 +32,18 @@ h1{
     color: black;
     text-align: center;
 }
+h2{
+    color: black;
+    text-align: left;
+}
 /*tabel in contact pagina*/
+
 input[type="text"], 
 input[type="email"], 
 textarea, select, button{display: block;margin: 15px 0px;width: 400px;box-sizing: border-box;
 }
 textarea{height: 100px;padding: 5px 4px;
 }
-/*tabel in mijnCV pagina*/
 button:active{background-color: darkgreen;
     color: white;
     border-radius: 4px; 
@@ -50,5 +54,9 @@ table{margin-left: auto; margin-right: auto;
 div{ display: block;text-align: center; 
     padding: 5px 50px 50px 12px;
 }
-form{ display: inline-block; margin: calc() ; 
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
