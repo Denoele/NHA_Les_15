@@ -37,19 +37,19 @@ h2{
     text-align: left;
 }
 /*tabel in contact pagina*/
-
-input[type="text"], 
-input[type="email"], 
-textarea, select, button{display: block;margin: 15px 0px;width: 400px;box-sizing: border-box;
+input[type="text"], input[type="email"], textarea, select,
+button{display: block;margin: 25px;width: 400px;box-sizing: border-box;
+border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
 }
 textarea{height: 100px;padding: 5px 4px;
 }
+
 button:active{background-color: darkgreen;
     color: white;
     border-radius: 4px; 
     box-shadow: inset 2px 2px 5px blue;
 }
-table{margin-left: auto; margin-right: auto;
+table, th, td {border: 1px solid;margin-left: auto; margin-right: auto;
 }
 div{ display: block;text-align: center; 
     padding: 5px 50px 50px 12px;
